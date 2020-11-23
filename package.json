@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jsonp": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-middlewares": "^6.0.0",
+    "koa-route": "^3.2.0",
+    "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "mailgun-js": "^0.22.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  }
+}
