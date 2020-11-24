@@ -15,7 +15,7 @@ app.use(jsonp())
 app.use(bodyParser());
 
 //db.connect
-require("./config/db.connect")();
+// require("./config/db.connect")();
 
 
 app.use(router.routes());
