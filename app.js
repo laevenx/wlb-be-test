@@ -2,6 +2,7 @@ const koa = require('koa');
 var middlewares = require('koa-middlewares');
 const serve = require('koa-static');
 var bodyParser = require('koa-bodyparser');
+const PORT = process.env.PORT || 3001
 
 const  logger = require('koa-logger');
 const jsonp = require('koa-jsonp');
@@ -22,5 +23,5 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 app.use(require('./middleware/errHandler'))
 
-app.listen(3001 )
-console.log("server running at 3001")
+app.listen(PORT)
+console.log(`server running at ${PORT}`)
